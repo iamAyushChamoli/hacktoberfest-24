@@ -1,6 +1,6 @@
 # Hacktoberfest'24 Official Website
 
-Welcome to the official repository for **Hacktoberfest'24**, a collaborative event organized by **Google Developer Groups on Campus at Graphic Era University** in partnership with **Vaunt.dev**. This repository forms the core of the Hacktoberfest'24 initiative and is open for contributions from everyone! Whether you're a beginner or a seasoned developer, your contributions are valued here.
+Welcome to the official repository for **Hacktoberfest'24 (GDG GEU x Vaunt) **, a collaborative event organized by **Google Developer Groups on Campus at Graphic Era University** in partnership with **Vaunt.dev**. This repository forms the core of the Hacktoberfest'24 initiative and is open for contributions from everyone! Whether you're a beginner or a seasoned developer, your contributions are valued here.
 ![Homepage Screenshot](./src/assets/homepage.png)
 
 
