@@ -33,6 +33,8 @@ This repository offers a **2-Tier Contribution System**:
 ## Partnership with Vaunt.dev
 
 We are proud to partner with **Vaunt.dev**, a powerful platform designed to enhance the developer experience. Thanks to Vaunt, participants in Hacktoberfest'24 can earn **limited edition Holopin badges** as a reward for their contributions.
+[![Vaunt.dev Logo](/src/assets/vaunt.png)](https://vaunt.dev)
+
 
 Vaunt.dev not only sponsors this event but also helps manage the **leaderboard** and reward system for participants.
 
@@ -154,12 +156,6 @@ For detailed contribution guidelines, check our [CONTRIBUTING.md](./CONTRIBUTING
 ## Code of Conduct
 
 We expect all contributors to follow our [Code of Conduct](./CODE_OF_CONDUCT.md) in order to create a safe and welcoming environment for everyone. Violations of the Code of Conduct will be taken seriously.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
 
 ---
 
