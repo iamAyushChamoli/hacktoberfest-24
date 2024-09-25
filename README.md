@@ -33,8 +33,7 @@ This repository offers a **2-Tier Contribution System**:
 ## Partnership with Vaunt.dev
 
 We are proud to partner with **Vaunt.dev**, a powerful platform designed to enhance the developer experience. Thanks to Vaunt, participants in Hacktoberfest'24 can earn **limited edition Holopin badges** as a reward for their contributions.
-[![Vaunt.dev Logo](/src/assets/vaunt-mini.png)](https://vaunt.dev)
-
+<a href="https://vaunt.dev"><img src="/src/assets/vaunt-mini.png" alt="Vaunt.dev Logo" width="200"/></a>
 
 Vaunt.dev not only sponsors this event but also helps manage the **leaderboard** and reward system for participants.
 
