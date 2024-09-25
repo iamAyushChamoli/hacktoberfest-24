@@ -42,7 +42,7 @@ export const navigation = [
   {
     id: "5",
     title: "Repository",
-    url: "https://github.com/iamAyushChamoli?tab=repositories",
+    url: "https://github.com/iamAyushChamoli/hacktoberfest-24",
   },
 ];
 
