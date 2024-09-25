@@ -37,7 +37,7 @@ export const navigation = [
   {
     id: "4",
     title: "Guidelines",
-    url: "#guidelines",
+    url: "https://github.com/iamAyushChamoli/hacktoberfest-24/blob/main/CONTRIBUTING.md",
   },
   {
     id: "5",
@@ -141,7 +141,7 @@ export const socials = [
     id: "0",
     title: "Discord",
     iconUrl: discord,
-    url: "#",
+    url: "https://discord.gg/BngqfTwE",
   },
   {
     id: "2",

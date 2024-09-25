@@ -95,13 +95,13 @@ We are committed to maintaining a positive and inclusive environment for all con
 
 ## 5. Getting Help
 
-If you have any questions or need help, feel free to ask in the [Discussions tab](../../discussions) or contact our maintainers through the issues.
+If you have any questions or need help, feel free to ask in the [Discord Group](https://discord.gg/BngqfTwE) or contact our maintainers through the issues.
 
 ---
 
 ## 6. Additional Notes
 
-- Please ensure your contributions adhere to the [Coding Guidelines](./CODING_GUIDELINES.md).
+- Please ensure your contributions adhere to the [Coding Guidelines](./CODE_OF_CONDUCT.md).
 - Make sure to follow our PR format and ensure you are updating the correct files.
   
 We appreciate your contributions and look forward to building something amazing together!

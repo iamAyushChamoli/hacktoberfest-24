@@ -20,7 +20,7 @@ const Badges = () => {
             Check out the{" "}
             <a
               className="text-xs font-code font-bold tracking-wider uppercase border-b breathing-animation"
-              href="#"
+              href="https://github.com/iamAyushChamoli/hacktoberfest-24/blob/main/CONTRIBUTING.md"
             >
               Contribution Guidelines
             </a>{" "}
