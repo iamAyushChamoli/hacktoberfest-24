@@ -58,33 +58,24 @@ export const badges = [
       "Offered To All Participants who succesfully merge atleast 1 qualifying PR(s)",
     img: "",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
     ],
   },
   {
-    id: "1",
+    id: "2",
     title: "Active Contributor",
     description:
       "Offered To All Participants who succesfully merge atleast 5 qualifying PR(s)",
     img: "",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
     ],
   },
   {
-    id: "2",
+    id: "1",
     title: "Master Contributor",
     description:
       "Offered To All Participants who succesfully merge atleast 10 qualifying PR(s)",
     img: "",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
     ],
   },
 ];
@@ -123,7 +114,7 @@ export const benefits = [
   {
     id: "4",
     title: "Limited Edition Badges!",
-    text: "Our partners Vaunt.dev have offered to give out limited edition holopin badges to the ALL contributors of the event.",
+    text: "Our partners Vaunt.dev have offered to give out limited edition GitHub badges to the ALL contributors of the event.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: medal,
   },

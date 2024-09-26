@@ -120,7 +120,7 @@ Once done, your image will be displayed on the leaderboard along with your contr
 
 ## 3. Badges & Recognition
 
-Our partner **Vaunt.dev** is offering limited edition **Holopin Badges** to recognize contributors. Here’s how you can earn them:
+Our partner **Vaunt.dev** is offering limited edition **GitHub Badges** to recognize contributors. Here’s how you can earn them:
 
 - **Participation Badge**: Complete at least 1 successful contribution (in Tier 1 or Tier 2).
 - **Active Contributor Badge**: Complete 5 successful contributions.

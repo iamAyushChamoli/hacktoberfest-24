@@ -1,0 +1,29 @@
+version: 0.0.1
+achievements:
+- achievement:
+    name: Participation Badge
+    icon: https://
+    description:
+    triggers:
+    - trigger:
+        actor: author
+        action: pull_request
+        condition: merged = true & labels in ['participation-eligible']
+- achievement:
+    name: Active Coontributor
+    icon: https://
+    description:
+    triggers:
+    - trigger:
+        actor: author
+        action: pull_request
+        condition: merged = true & labels in ['active-eligible']
+- achievement:
+    name: Master Contributor
+    icon: https://
+    description:
+    triggers:
+    - trigger:
+        actor: author
+        action: pull_request
+        condition: merged = true & labels in ['master-eligible']

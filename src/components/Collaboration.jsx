@@ -24,9 +24,9 @@ const Collaboration = () => {
                   alt="Vaunt"
                   className="mt-5 w-[10vw] cursor-pointer"
                 />
+                <h2 className="mt-2">Visit Vaunt</h2>
               </a>
             </span>
-            <h2 className="mt-2">Visit Vaunt</h2>
           </div>
         </div>
 

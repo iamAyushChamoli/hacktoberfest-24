@@ -32,7 +32,7 @@ This repository offers a **2-Tier Contribution System**:
 
 ## Partnership with Vaunt.dev
 
-We are proud to partner with **Vaunt.dev**, a powerful platform designed to enhance the developer experience. Thanks to Vaunt, participants in Hacktoberfest'24 can earn **limited edition Holopin badges** as a reward for their contributions.
+We are proud to partner with **Vaunt.dev**, a powerful platform designed to enhance the developer experience. Thanks to Vaunt, participants in Hacktoberfest'24 can earn **limited edition GitHub badges** as a reward for their contributions.
 <br/>
 <a href="https://vaunt.dev"><img src="/src/assets/vaunt.png" alt="Vaunt.dev Logo" width="200"/></a>
 <br/>
@@ -110,7 +110,7 @@ This will add you to the leaderboard where you'll compete with others for top sp
 
 ## Badges and Recognition
 
-Thanks to our partner **Vaunt.dev**, you can earn special **Holopin badges** based on your contributions during Hacktoberfest'24. Badges are awarded based on the following contribution levels:
+Thanks to our partner **Vaunt.dev**, you can earn special **GitHub badges** based on your contributions during Hacktoberfest'24. Badges are awarded based on the following contribution levels:
 
 - **Participation Badge**: For making at least 1 successful contribution (either Tier 1 or Tier 2).
 - **Active Contributor Badge**: For making 5 successful contributions.

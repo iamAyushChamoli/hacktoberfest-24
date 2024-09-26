@@ -7,7 +7,7 @@ const Badges = () => {
     <Section className="overflow-hidden" id="badges">
       <div className="container relative">
         <Heading
-          title="Free Holopin Badges at Stake! Contribute More To Win More!"
+          title="Free GitHub Badges at Stake! Contribute More To Win More!"
           tag="Special Thanks To Our Partners Vaunt.dev"
         />
 
