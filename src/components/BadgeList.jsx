@@ -14,11 +14,9 @@ const BadgeList = () => {
             {item.description}
           </p>
 
-                  
-                <div className="text-[5.5rem] leading-none font-bold">
-                  <img src={item.img} alt="badge"/>
-                </div>
-          
+          <div className="text-[5.5rem] leading-none font-bold">
+            <img src={item.img} alt="badge" />
+          </div>
         </div>
       ))}
     </div>
