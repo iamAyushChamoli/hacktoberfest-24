@@ -3,7 +3,7 @@ achievements:
 - achievement:
     name: Participation Badge
     icon: https://
-    description:
+    description: Participated in HacktoberFest'24 GDG GEU x Vaunt
     triggers:
     - trigger:
         actor: author
@@ -12,7 +12,7 @@ achievements:
 - achievement:
     name: Active Coontributor
     icon: https://
-    description:
+    description: Succesfully merged 5 PRS in HacktoberFest'24 GDG GEU x Vaunt
     triggers:
     - trigger:
         actor: author
@@ -21,7 +21,7 @@ achievements:
 - achievement:
     name: Master Contributor
     icon: https://
-    description:
+    description: Succesfully merged 10 PRS in HacktoberFest'24 GDG GEU x Vaunt
     triggers:
     - trigger:
         actor: author
