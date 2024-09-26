@@ -14,15 +14,11 @@ const BadgeList = () => {
             {item.description}
           </p>
 
-          <div className="flex items-center h-[5.5rem] mb-6">
-            {item.price && (
-              <>
+                  
                 <div className="text-[5.5rem] leading-none font-bold">
                   <img src={item.img} alt="badge"/>
                 </div>
-              </>
-            )}
-          </div>
+          
         </div>
       ))}
     </div>

@@ -1,3 +1,4 @@
+import { activeBadge, masterBadge, participationBadge } from "../../vaunt/badges/index";
 import {
   discord,
   instagram,
@@ -56,7 +57,7 @@ export const badges = [
     title: "Participation Badge",
     description:
       "Offered To All Participants who succesfully merge atleast 1 qualifying PR(s)",
-    img: "",
+    img: participationBadge,
     features: [
     ],
   },
@@ -65,7 +66,7 @@ export const badges = [
     title: "Active Contributor",
     description:
       "Offered To All Participants who succesfully merge atleast 5 qualifying PR(s)",
-    img: "",
+    img: activeBadge,
     features: [
     ],
   },
@@ -74,7 +75,7 @@ export const badges = [
     title: "Master Contributor",
     description:
       "Offered To All Participants who succesfully merge atleast 10 qualifying PR(s)",
-    img: "",
+    img: masterBadge,
     features: [
     ],
   },
