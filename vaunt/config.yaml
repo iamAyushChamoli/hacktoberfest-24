@@ -2,7 +2,7 @@ version: 0.0.1
 achievements:
 - achievement:
     name: Participation Badge
-    icon: https://
+    icon: https://github.com/iamAyushChamoli/hacktoberfest-24/blob/main/vaunt/badges/participation-badge.png
     description: Participated in HacktoberFest'24 GDG GEU x Vaunt
     triggers:
     - trigger:
@@ -11,7 +11,7 @@ achievements:
         condition: merged = true & labels in ['participation-eligible']
 - achievement:
     name: Active Coontributor
-    icon: https://
+    icon: https://github.com/iamAyushChamoli/hacktoberfest-24/blob/main/vaunt/badges/active-badge.png
     description: Succesfully merged 5 PRS in HacktoberFest'24 GDG GEU x Vaunt
     triggers:
     - trigger:
@@ -20,7 +20,7 @@ achievements:
         condition: merged = true & labels in ['active-eligible']
 - achievement:
     name: Master Contributor
-    icon: https://
+    icon: https://github.com/iamAyushChamoli/hacktoberfest-24/blob/main/vaunt/badges/master-badge.png
     description: Succesfully merged 10 PRS in HacktoberFest'24 GDG GEU x Vaunt
     triggers:
     - trigger:
