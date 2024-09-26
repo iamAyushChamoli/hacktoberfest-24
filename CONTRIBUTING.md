@@ -96,7 +96,6 @@ To include your image in the `participants/participants.js` file, follow these s
    ```js
    import ayush from './img/ayush.jpg';
    ```
-
 4. **Export the Image**: 
    - Now, export the image from the same `index.js` file by adding the following line:
      ```js
