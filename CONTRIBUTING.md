@@ -65,7 +65,7 @@ After your contribution is verified, you’ll need to update the `participants/p
 ```js
 {
     id: "1",
-    name: "Ayush ChamoliK1",
+    name: "Ayush Chamoli",
     university: "Graphic Era University",
     img: ayush, // You can provide your image if available
     pr: [1],
@@ -73,6 +73,49 @@ After your contribution is verified, you’ll need to update the `participants/p
 },
 ```
 
+---
+
+### **How to Add Your Image**
+
+To include your image in the `participants/participants.js` file, follow these steps:
+
+1. **Prepare Your Image**: 
+   - Ensure your image is square (1:1 aspect ratio) and in **JPG** or **PNG** format.
+   
+2. **Place Your Image in the Folder**: 
+   - Save your image in the `participants/avatars/img/` folder.
+   
+3. **Import the Image**: 
+   - After placing your image in the `img/` folder, go to the `index.js` file in the `participants/avatars/` folder.
+   - Import your image using the following format:
+     ```js
+     import <yourImageName> from './img/<yourImageName>.jpg (or .png)';
+     ```
+
+   Example:
+   ```js
+   import ayush from './img/ayush.jpg';
+   ```
+
+4. **Export the Image**: 
+   - Now, export the image from the same `index.js` file by adding the following line:
+     ```js
+     export {
+       <yourImageName>,
+     };
+     ```
+
+   Example:
+   ```js
+   export {
+       ayush,
+   };
+   ```
+
+5. **Update the `participants.js` File**:
+   - In the `participants/participants.js` file, set the `img` field to your image variable (which you imported and exported in the steps above). 
+
+Once done, your image will be displayed on the leaderboard along with your contribution details.
 ---
 
 ## 3. Badges & Recognition
