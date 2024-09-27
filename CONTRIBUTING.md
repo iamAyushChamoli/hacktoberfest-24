@@ -73,6 +73,35 @@ After your contribution is verified, you’ll need to update the `participants/p
 },
 ```
 
+### **Updating Your Entry for Multiple Contributions**
+If you’ve already made a contribution and your details are present in the `participants/participants.js` file, you **don’t need to create a new entry**. Instead, just update the `pr` and `prLink` arrays with your new PR details. Here's how:
+
+- **Original Entry**:
+    ```js
+    {
+        id: "2",
+        name: "John Doe",
+        university: "Graphic Era University",
+        img: johnDoe,
+        pr: [1, 2],
+        prLink: ['#link1', '#link2'],
+    },
+    ```
+
+- **After Adding a New PR** (PR number: 3, PR link: `#link3`):
+    ```js
+    {
+        id: "2",
+        name: "John Doe",
+        university: "Graphic Era University",
+        img: johnDoe,
+        pr: [1, 2, 3],
+        prLink: ['#link1', '#link2', '#link3'],
+    },
+    ```
+
+This ensures your contributions are consolidated in a single entry, and your leaderboard details remain up-to-date.
+
 ---
 
 ### **How to Add Your Image**
