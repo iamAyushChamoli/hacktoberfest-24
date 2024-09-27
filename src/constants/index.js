@@ -1,4 +1,4 @@
-import { activeBadge, masterBadge, participationBadge } from "../../vaunt/badges/index";
+import { activeBadge, participationBadge, masterBadge } from "../../.vaunt/badges";
 import {
   discord,
   instagram,
