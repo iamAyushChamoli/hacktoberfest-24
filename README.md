@@ -79,7 +79,7 @@ You also have the freedom to contribute to any **external open-source repository
 After your contribution (either in Tier 1 or Tier 2) has been successfully verified, you will be featured on our **Leaderboard**! Here's how to update the `participants/participants.js` file:
 
 1. Open `participants/participants.js`.
-2. Add your details in the following format:
+2. **If this is your first contribution**, add your details in the following format:
     ```js
     {
         id: "<incremental id>",
@@ -90,21 +90,31 @@ After your contribution (either in Tier 1 or Tier 2) has been successfully verif
         prLink: ['<PR link>'],
     },
     ```
-3. Make sure to follow the structure carefully, including your PR number and link.
 
-Example:
-```js
-{
-    id: "1",
-    name: "Ayush ChamoliK1",
-    university: "Graphic Era University",
-    img: ayush,
-    pr: [1],
-    prLink: ['#link1'],
-},
-```
+3. **If you have already made contributions before**, **do not create a new entry**. Instead, simply add your new PR number and PR link to the existing entry. For example, if your entry looks like this:
+    ```js
+    {
+        id: "2",
+        name: "John Doe",
+        university: "Graphic Era University",
+        img: johnDoe,
+        pr: [1, 2],
+        prLink: ['#link1', '#link2'],
+    },
+    ```
+   And now you have a new PR (PR number: 3, PR link: `#link3`), you would update the `pr` and `prLink` arrays as follows:
+    ```js
+    {
+        id: "2",
+        name: "John Doe",
+        university: "Graphic Era University",
+        img: johnDoe,
+        pr: [1, 2, 3],
+        prLink: ['#link1', '#link2', '#link3'],
+    },
+    ```
 
-This will add you to the leaderboard where you'll compete with others for top spots!
+4. Make sure to follow the structure carefully, including your PR number(s) and link(s).
 
 ---
 
