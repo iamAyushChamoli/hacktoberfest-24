@@ -6,25 +6,53 @@ achievements:
       icon: https://github.com/iamAyushChamoli/hacktoberfest-24/blob/main/.vaunt/badges/participation-badge.png
       description: Participated in HacktoberFest'24 GDG GEU x Vaunt
       triggers:
-      - trigger:
-          actor: author
-          action: pull_request
-          condition: merged = true & labels in ['participation-eligible']
+        - trigger:
+            actor: author
+            action: pull_request
+            condition: merged = true & labels in ['participation-eligible']
 - achievement:
       name: Active Coontributor
       icon: https://github.com/iamAyushChamoli/hacktoberfest-24/blob/main/.vaunt/badges/active-badge.png
       description: Succesfully merged 5 PRS in HacktoberFest'24 GDG GEU x Vaunt
       triggers:
-      - trigger:
-          actor: author
-          action: pull_request
-          condition: merged = true & labels in ['active-eligible']
+        - trigger:
+            actor: author
+            action: pull_request
+            condition: merged = true & labels in ['active-eligible']
 - achievement:
       name: Master Contributor
       icon: https://github.com/iamAyushChamoli/hacktoberfest-24/blob/main/.vaunt/badges/master-badge.png
       description: Succesfully merged 10 PRS in HacktoberFest'24 GDG GEU x Vaunt
       triggers:
-      - trigger:
-          actor: author
-          action: pull_request
-          condition: merged = true & labels in ['master-eligible']
+        - trigger:
+            actor: author
+            action: pull_request
+            condition: merged = true & labels in ['master-eligible']
+
+  - achievement:
+      name: Shooting Star
+      icon: https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/shooting_star.png
+      description: Awarded for starring our repository, make a wish!
+      triggers:
+        - trigger:
+            actor: author
+            action: star
+            condition: starred = true
+  - achievement:
+      name: Every Bit Counts
+      icon: https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/every_bit_counts.png
+      description: No commit is too small!
+      triggers:
+        - trigger:
+            actor: author
+            action: commit
+            condition: count() >= 1
+  - achievement:
+      name: Pull Request Hero
+      icon: https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/pull_request_hero.png
+      description: You're a PR hero, rock on!
+      triggers:
+        - trigger:
+            actor: author
+            action: pull_request
+            condition: merged = true
