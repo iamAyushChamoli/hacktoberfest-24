@@ -12,7 +12,6 @@ import {
   networking,
   linkedin,
 } from "../assets";
-
 export const navigation = [
   {
     id: "0",
