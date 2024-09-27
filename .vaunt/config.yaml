@@ -27,3 +27,21 @@ achievements:
             actor: author
             action: pull_request
             condition: merged = true & labels in ['master-eligible']
+webhooks:
+  - webhook:
+      name: achievements
+      type: github
+      metadata:
+        discussion:
+          repository: iamAyushChamoli/hacktoberfest-24
+          title: HacktoberFest-24 GDG x Vaunt Badges
+      events:
+        - event:
+            type: achievement
+            value: Participation Badge
+        - event:
+            type: achievement
+            value: Active Contributor
+        - event:
+            type: achievement
+            value: Master Contributor
