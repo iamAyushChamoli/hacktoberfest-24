@@ -87,6 +87,7 @@ export const benefits = [
     title: "Explore Open Source",
     text: "Explore an ever-expanding library of open-source projects and contribute to the community.",
     backgroundUrl: "",
+    link: "https://testsigma.medium.com/an-ultimate-guide-to-open-source-contribution-for-beginners-7278952b0b9f",
     iconUrl: explore,
   },
   {
@@ -94,6 +95,7 @@ export const benefits = [
     title: "Learn Git & Github",
     text: "Version Control, Collaboration, and Code Management with Git & GitHub, If you don't know what these things are, this is the perfect opportunity to learn!",
     backgroundUrl: "",
+    link: "https://www.freecodecamp.org/news/introduction-to-git-and-github/",
     iconUrl: github,
     light: true,
   },
@@ -102,6 +104,7 @@ export const benefits = [
     title: "Compete With Your Peers",
     text: "Crush the competition and ace the leaderboard! The more PRs you get merged, the higher you climb.",
     backgroundUrl: "",
+    link: "https://github.com/explore",
     iconUrl: podium,
   },
   {
@@ -109,6 +112,7 @@ export const benefits = [
     title: "Build Your Github Portfolio",
     text: "Recruiters look for active contributors to open-source projects. Build your portfolio and stand out from the crowd.",
     backgroundUrl: "",
+    link: "https://medium.com/@kapil0123/building-your-stunning-github-portfolio-a-step-by-step-guide-a5e8650c5009",
     iconUrl: jigsaw,
     light: true,
   },
@@ -117,6 +121,7 @@ export const benefits = [
     title: "Limited Edition Badges!",
     text: "Our partners Vaunt.dev have offered to give out limited edition GitHub badges to the ALL contributors of the event.",
     backgroundUrl: "",
+    link: "https://github.com/drknzz/GitHub-Achievements",
     iconUrl: medal,
   },
   {
@@ -124,6 +129,7 @@ export const benefits = [
     title: "Network & Create Memories",
     text: "One of the core values of are fostered by HacktoberFest is community building. Connect with like minded peers and create memories that last a lifetime!",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
+    link: "https://resources.github.com/events/",
     iconUrl: networking,
   },
 ];

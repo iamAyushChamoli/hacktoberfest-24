@@ -48,10 +48,15 @@ const Benefits = () => {
                     height={48}
                     alt={item.title}
                   />
-                  <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
-                    Learn more
-                  </p>
-                  <Arrow />
+                  <a 
+                    href={item.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="ml-auto flex items-center font-code text-xs font-bold text-n-1 uppercase tracking-wider hover:cursor-pointer pointer-events-auto"
+                  >
+                    <p className="mr-2">Learn more</p> 
+                    <Arrow /> 
+                  </a>
                 </div>
               </div>
 
