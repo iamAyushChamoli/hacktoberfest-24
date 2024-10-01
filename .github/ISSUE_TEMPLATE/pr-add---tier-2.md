@@ -2,7 +2,7 @@
 name: PR ADD / Tier 2
 about: Use this template to submit a verified external PR to be added to the participants
   log.
-title: "[PR EXTERNAL] <Your Name>"
+title: "[PR ADD] <Your Name>"
 labels: PR ADD
 assignees: ''
 
