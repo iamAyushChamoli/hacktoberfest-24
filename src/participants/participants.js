@@ -1,4 +1,4 @@
-import { ayush } from "./avatars/index";
+import { ayush, umesh } from "./avatars/index";
 
 export const participantData = [
   {
@@ -11,10 +11,10 @@ export const participantData = [
   },
     {
     id: "2",
-    name: "test",
+    name: "Umesh Kumar ",
     university: "Graphic Era University",
-    img: ayush,
-    pr: [1, 123],
-    prLink: ['ink1','link2' ],
+    img: umesh,
+    pr: [17],
+    prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/17', ],
   },
 ]
