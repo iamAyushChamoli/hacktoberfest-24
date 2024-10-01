@@ -43,6 +43,9 @@ const Leaderboard = () => {
                   <p className="body-2 mb-1 text-n-3">
                     Total Contributions: {participant.prLink.length}
                   </p>
+                  <p className="body-2 mb-1 text-n-3">
+                    Current Rank: {index + 1}
+                  </p>
                   <ul className="body-2">
                     <li className="flex items-start py-1 border-t border-n-6">
                       <a 
