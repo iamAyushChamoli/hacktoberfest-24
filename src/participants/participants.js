@@ -1,4 +1,4 @@
-import { ayush, vineet } from "./avatars/index";
+import { vineet } from "./avatars/index";
 
 export const participantData = [
  {
