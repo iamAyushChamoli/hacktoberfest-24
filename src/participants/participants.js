@@ -2,7 +2,7 @@ import { vineet } from "./avatars/index";
 
 export const participantData = [
  {
-    id: "3",
+    id: "1",
     name: "Vineet Singh",
     university: "Graphic Era Hill University",
     img: vineet,
