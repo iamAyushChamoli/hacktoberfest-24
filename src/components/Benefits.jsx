@@ -28,7 +28,7 @@ const Benefits = () => {
         <div className="flex flex-wrap gap-10 mb-10">
           {benefits.map((item, index) => (
             <div
-              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
+              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl"
               style={{
                 backgroundImage: `url(${item.backgroundUrl})`,
                 border: `5px solid`,
@@ -48,7 +48,7 @@ const Benefits = () => {
                     height={48}
                     alt={item.title}
                   />
-                  <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
+                  <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider transition-transform duration-300 hover:scale-110">
                     Learn more
                   </p>
                   <Arrow />
@@ -58,7 +58,7 @@ const Benefits = () => {
               {item.light && <GradientLight />}
 
               <div
-                className="absolute inset-0.5 bg-n-8"
+                className="absolute inset-0.5 bg-n-8 transition-opacity duration-300 ease-in-out hover:bg-opacity-80"
                 style={{ clipPath: "url(#benefits)", borderRadius: '10px' }} // Add borderRadius here as well
               >
                 
