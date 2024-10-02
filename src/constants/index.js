@@ -1,4 +1,8 @@
-import { activeBadge, participationBadge, masterBadge } from "../../.vaunt/badges";
+import {
+  activeBadge,
+  participationBadge,
+  masterBadge,
+} from "../../.vaunt/badges";
 import {
   discord,
   instagram,
@@ -12,6 +16,9 @@ import {
   networking,
   linkedin,
 } from "../assets";
+
+const base_repo =
+  "https://github.com/iamAyushChamoli/hacktoberfest-24/blob/main";
 
 export const navigation = [
   {
@@ -47,9 +54,7 @@ export const navigation = [
   },
 ];
 
-
 export const companyLogos = [gdg, vaunt];
-
 
 export const badges = [
   {
@@ -58,8 +63,7 @@ export const badges = [
     description:
       "Offered To All Participants who succesfully merge atleast 1 qualifying PR(s)",
     img: participationBadge,
-    features: [
-    ],
+    features: [],
   },
   {
     id: "2",
@@ -67,8 +71,7 @@ export const badges = [
     description:
       "Offered To All Participants who succesfully merge atleast 5 qualifying PR(s)",
     img: activeBadge,
-    features: [
-    ],
+    features: [],
   },
   {
     id: "1",
@@ -76,8 +79,7 @@ export const badges = [
     description:
       "Offered To All Participants who succesfully merge atleast 10 qualifying PR(s)",
     img: masterBadge,
-    features: [
-    ],
+    features: [],
   },
 ];
 
@@ -88,6 +90,7 @@ export const benefits = [
     text: "Explore an ever-expanding library of open-source projects and contribute to the community.",
     backgroundUrl: "https://testsigma.medium.com/an-ultimate-guide-to-open-source-contribution-for-beginners-7278952b0b9f",
     iconUrl: explore,
+    url: `${base_repo}/abt/Explore.md`,
   },
   {
     id: "1",
@@ -96,6 +99,7 @@ export const benefits = [
     backgroundUrl: "https://www.freecodecamp.org/news/introduction-to-git-and-github/",
     iconUrl: github,
     light: true,
+    url: `${base_repo}/abt/GithHub_Git.md`,
   },
   {
     id: "2",
@@ -103,6 +107,7 @@ export const benefits = [
     text: "Crush the competition and ace the leaderboard! The more PRs you get merged, the higher you climb.",
     backgroundUrl: "https://github.com/explore",
     iconUrl: podium,
+    url: `${base_repo}/abt/Compete.md`,
   },
   {
     id: "3",
@@ -111,6 +116,7 @@ export const benefits = [
     backgroundUrl: "https://medium.com/@kapil0123/building-your-stunning-github-portfolio-a-step-by-step-guide-a5e8650c5009",
     iconUrl: jigsaw,
     light: true,
+    url: `${base_repo}/abt/Portfolio.md`,
   },
   {
     id: "4",
@@ -118,6 +124,7 @@ export const benefits = [
     text: "Our partners Vaunt.dev have offered to give out limited edition GitHub badges to the ALL contributors of the event.",
     backgroundUrl: "",
     iconUrl: medal,
+    url: `${base_repo}/abt/Badge.md`,
   },
   {
     id: "5",
@@ -125,6 +132,7 @@ export const benefits = [
     text: "One of the core values of are fostered by HacktoberFest is community building. Connect with like minded peers and create memories that last a lifetime!",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: networking,
+    url: `${base_repo}/abt/Network.md`,
   },
 ];
 
