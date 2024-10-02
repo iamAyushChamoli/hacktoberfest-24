@@ -1,4 +1,4 @@
-# Compete with Your Peers in Hacktoberfest GEU
+# Compete with Your Peers in Hacktoberfest
 
 Ready to dominate the leaderboard? Here's why you should dive into the competitive spirit of Hacktoberfest GEU:
 
