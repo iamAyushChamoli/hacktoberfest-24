@@ -18,4 +18,12 @@ export const participantData = [
     pr: [28],
     prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/28'],
 },
+  {
+    id: "3",
+    name: "Manish Kumar Gupta",
+    university: "Graphic Era (deemed to be) Univeristy",
+    img: manish,
+    pr: [20],
+    prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/20'],
+  },
 ];
