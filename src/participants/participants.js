@@ -1,5 +1,4 @@
-import { vineet } from "./avatars/index";
-import { hayagreevanv } from "./avatars/index";
+import { vineet,hayagreevanv,uday} from "./avatars/index";
 
 export const participantData = [
  {
@@ -17,5 +16,13 @@ export const participantData = [
     img: hayagreevanv,
     pr: [28],
     prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/28'],
-},
+ },
+ {
+  id: "3",
+  name: "Gurramu Uday Kiran",
+  university: "Vignan Institute of Information Technology",
+  img: uday,
+  pr: [29],
+  prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/29'],
+ }
 ];
