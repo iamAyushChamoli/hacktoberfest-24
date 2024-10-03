@@ -30,8 +30,8 @@ export const participantData = [
   name: "Umesh Kumar",
   university: "Graphic Era Hill University ",
   img: umesh,
-  pr: [37],
-  prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/37'],
+  pr: [37,30,35,41],
+  prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/37','https://github.com/AkshitLakhera/PenCraft-Full-Stack-Blogging-Application/pull/30','https://github.com/AkshitLakhera/PenCraft-Full-Stack-Blogging-Application/pull/35','https://github.com/AkshitLakhera/PenCraft-Full-Stack-Blogging-Application/pull/41'],
  },
 {
   id: "5",
@@ -41,7 +41,4 @@ export const participantData = [
   pr: [53],
   prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/53'],
  },
-  pr: [37,30,35,41],
-  prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/37','https://github.com/AkshitLakhera/PenCraft-Full-Stack-Blogging-Application/pull/30','https://github.com/AkshitLakhera/PenCraft-Full-Stack-Blogging-Application/pull/35','https://github.com/AkshitLakhera/PenCraft-Full-Stack-Blogging-Application/pull/41'],
- }
 ];
