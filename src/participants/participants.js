@@ -25,4 +25,13 @@ export const participantData = [
   pr: [29],
   prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/29'],
  }
+ ,
+ {
+  id: "4",
+  name: "Mohit rana",
+  university: "Graphic Era Hill University",
+  img: Mohitrana,
+  pr: [41, 45],
+  prLink: ["https://github.com/iamAyushChamoli/hacktoberfest-24/pull/44"],
+}
 ];
