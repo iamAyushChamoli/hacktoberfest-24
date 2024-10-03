@@ -59,7 +59,7 @@ const Header = () => {
             key={item.id}
             href={item.url}
             onClick={handleClick}
-            className={`block relative font-code text-color-1 uppercase transition-colors hover:text-green-600 ${
+            className={`block relative font-code text-[#ffffff80] uppercase transition-colors hover:text-white ${
               item.onlyMobile ? "lg:hidden" : ""
             } px-6 py-6 md:py-8 lg:text-base lg:font-semibold xl:text-lg xl:px-8`} // Default text-color-1 (purple), hover text-white (n-1)
           >
