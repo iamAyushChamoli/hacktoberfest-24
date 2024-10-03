@@ -1,4 +1,4 @@
-import { vineet,hayagreevanv,uday} from "./avatars/index";
+import { vineet,hayagreevanv,uday,umesh} from "./avatars/index";
 
 export const participantData = [
  {
@@ -24,5 +24,13 @@ export const participantData = [
   img: uday,
   pr: [29],
   prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/29'],
+ },
+ {
+  id: "4",
+  name: "Umesh Kumar",
+  university: "Graphic Era Hill University ",
+  img: umesh,
+  pr: [37],
+  prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/37'],
  }
 ];
