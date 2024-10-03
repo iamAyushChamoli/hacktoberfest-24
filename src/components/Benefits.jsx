@@ -26,7 +26,7 @@ const Benefits = () => {
           title="What is HacktoberFest'24 and Why Should You Participate?"
         />
 
-        <div className="flex flex-wrap gap-10 mb-10">
+        <div className="flex flex-wrap justify-center gap-15 mb-10">
           {benefits.map((item, index) => (
             <div
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl"
@@ -75,4 +75,3 @@ const Benefits = () => {
 };
 
 export default Benefits;
-
