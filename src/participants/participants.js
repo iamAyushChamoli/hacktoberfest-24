@@ -1,4 +1,4 @@
-import { vineet,hayagreevanv,uday,umesh, mohit} from "./avatars/index";
+import { vineet,hayagreevanv,uday,umesh, mohit ,divyanshu} from "./avatars/index";
 
 export const participantData = [
  {
@@ -17,16 +17,8 @@ export const participantData = [
     pr: [28],
     prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/28'],
   },
-  {
-    id: "3",
-    name: "Manish Kumar Gupta",
-    university: "Graphic Era (deemed to be) Univeristy",
-    img: manish,
-    pr: [20],
-    prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/20'],
-  },
  {
-  id: "4",
+  id: "3",
   name: "Gurramu Uday Kiran",
   university: "Vignan Institute of Information Technology",
   img: uday,
@@ -34,7 +26,7 @@ export const participantData = [
   prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/29'],
  },
  {
-  id: "5",
+  id: "4",
   name: "Umesh Kumar",
   university: "Graphic Era Hill University ",
   img: umesh,
@@ -42,12 +34,21 @@ export const participantData = [
   prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/37','https://github.com/AkshitLakhera/PenCraft-Full-Stack-Blogging-Application/pull/30','https://github.com/AkshitLakhera/PenCraft-Full-Stack-Blogging-Application/pull/35','https://github.com/AkshitLakhera/PenCraft-Full-Stack-Blogging-Application/pull/41'],
  },
 {
-  id: "6",
+  id: "5",
   name: "Mohit Rana",
   university: "Graphic Era Hill University ",
   img: mohit,
   pr: [45, 54],
   prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/50','https://github.com/aditya-bhaumik/Pathsphere/pull/114 '],
- }
+
+ },
+ {
+  id: "6",
+  name: "Divyanshu Chaurasiya",
+  university: "Graphic Era Hill University ",
+  img: divyanshu,
+  pr: [60],
+  prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/60'],
+ },
 ];
 
