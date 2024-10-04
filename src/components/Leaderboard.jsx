@@ -3,6 +3,7 @@ import Section from "./Section";
 import Heading from "./Heading";
 import { participantData } from "../participants/participants";
 
+
 const Leaderboard = () => {
   // Sort participants by the size of their prLink array in descending order
   const sortedParticipants = participantData.sort((a, b) => b.prLink.length - a.prLink.length);
