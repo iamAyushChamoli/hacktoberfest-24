@@ -55,8 +55,8 @@ export const participantData = [
   name: "Akhand Pratap Singh",
   university: "Graphic Era (deemed to be) University",
   img: akhandpr,
-  pr: [74],
-  prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/74'],
+  pr: [75],
+  prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/75'],
  },
  
 ];
