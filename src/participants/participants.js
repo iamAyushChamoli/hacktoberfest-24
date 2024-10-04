@@ -16,7 +16,7 @@ export const participantData = [
     img: hayagreevanv,
     pr: [28],
     prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/28'],
- },
+  },
  {
   id: "3",
   name: "Gurramu Uday Kiran",
@@ -40,6 +40,7 @@ export const participantData = [
   img: mohit,
   pr: [45, 54],
   prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/50','https://github.com/aditya-bhaumik/Pathsphere/pull/114 '],
+
  },
  {
   id: "6",
@@ -50,3 +51,4 @@ export const participantData = [
   prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/60'],
  },
 ];
+
