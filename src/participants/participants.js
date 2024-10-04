@@ -40,5 +40,13 @@ export const participantData = [
   img: mohit,
   pr: [45, 54],
   prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/50','https://github.com/aditya-bhaumik/Pathsphere/pull/114 '],
- }
+ },
+ {
+  id: "5",
+  name: "Mohit Rana",
+  university: "Graphic Era Hill University ",
+  img: mohit,
+  pr: [45, 54],
+  prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/50','https://github.com/aditya-bhaumik/Pathsphere/pull/114 '],
+ },
 ];
