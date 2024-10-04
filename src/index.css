@@ -17,6 +17,31 @@
   scroll-behavior: smooth
 }
 
+/* ScrollBar Styles */
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #241f35; 
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #8c31b3;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #d061ff;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #a649ce;
+}
+
 @layer base {
   body {
     @apply font-sans bg-n-8 text-n-1 text-base;
