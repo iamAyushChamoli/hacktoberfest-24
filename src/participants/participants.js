@@ -1,4 +1,4 @@
-import { vineet,hayagreevanv,uday,umesh, mohit ,divyanshu,Rishaub} from "./avatars/index";
+import { vineet,hayagreevanv,uday,umesh, mohit ,divyanshu} from "./avatars/index";
 
 export const participantData = [
  {
@@ -49,14 +49,6 @@ export const participantData = [
   img: divyanshu,
   pr: [60],
   prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/60'],
- },
- {
-  id: "7",
-  name: "Rishaub Kumar",
-  university: "VIT Bhopal University ",
-  img: Rishaub,
-  pr: [80],
-  prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/80'],
  },
 ];
 
