@@ -6,4 +6,6 @@ import umesh from "./img/umesh.png"
 import mohit from "./img/mohit.jpg"
 import pratikM from './img/pratikM.jpg'
 import divyanshu from "./img/divyanshu.png"
-export { ayush, vineet, hayagreevanv, uday , umesh, mohit ,divyanshu,pratikM};
+import tanuj from "./img/tanuj.png"
+
+export { ayush, vineet, hayagreevanv, uday , umesh, mohit ,divyanshu,pratikM, tanuj};
