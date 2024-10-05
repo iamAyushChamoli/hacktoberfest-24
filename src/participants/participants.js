@@ -1,4 +1,4 @@
-import { vineet,hayagreevanv,uday,umesh, mohit ,divyanshu} from "./avatars/index";
+import { vineet,hayagreevanv,uday,umesh, mohit ,divyanshu,pratikM} from "./avatars/index";
 
 export const participantData = [
  {
@@ -49,4 +49,12 @@ export const participantData = [
   pr: [60],
   prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/60'],
  },
+ {
+  id: "7",
+  name: "Pratik Mali",
+  university: "MET Institute of Engineering",
+  img: pratikM,
+  pr: [61],
+  prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/61'],
+ }
 ];
