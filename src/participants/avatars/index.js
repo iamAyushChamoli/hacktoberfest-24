@@ -4,5 +4,7 @@ import hayagreevanv from "./img/HayagreevanV.png"
 import uday from "./img/uday.png"
 import umesh from "./img/umesh.png"
 import mohit from "./img/mohit.jpg"
-import manish from "./img/manish.jpg"
-export { ayush, vineet, hayagreevanv, uday , umesh, mohit, manish };
+
+
+import divyanshu from "./img/divyanshu.png"
+export { ayush, vineet, hayagreevanv, uday , umesh, mohit ,divyanshu };
