@@ -78,7 +78,7 @@ const Header = () => {
                   } lg:leading-5 lg:hover:text-n-1 xl:px-12`}
                   activeClass="text-white" // Active link color
                 >
-                  {item.title}
+                  <span className="hover:cursor-pointer">{item.title}</span>
                 </ScrollLink>
               )
             ))}
