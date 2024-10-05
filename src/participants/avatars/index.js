@@ -5,5 +5,4 @@ import uday from "./img/uday.png"
 import umesh from "./img/umesh.png"
 import mohit from "./img/mohit.jpg"
 import divyanshu from "./img/divyanshu.png"
-import AyushiGaur from "./img/AyushiGaur.jpeg"; 
-export { ayush, vineet, hayagreevanv, uday , umesh, mohit ,divyanshu,AyushiGaur };
+export { ayush, vineet, hayagreevanv, uday , umesh, mohit ,divyanshu };
