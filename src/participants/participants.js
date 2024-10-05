@@ -1,4 +1,4 @@
-import { vineet,hayagreevanv,uday,umesh, mohit ,divyanshu,pratikM} from "./avatars/index";
+import { vineet,hayagreevanv,uday,umesh, mohit ,divyanshu,pratikM, tanuj} from "./avatars/index";
 
 export const participantData = [
  {
@@ -57,6 +57,14 @@ export const participantData = [
   img: pratikM,
   pr: [61],
   prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/61'],
- }
+ },
+  {
+  id: "8",
+  name: "Tanuj Khati",
+  university: "Graphic Era Hill University",
+  img: tanuj,
+  pr: [64],
+  prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/64'],
+ },
 ];
 
