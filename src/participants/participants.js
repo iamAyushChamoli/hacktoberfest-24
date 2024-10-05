@@ -38,7 +38,7 @@ export const participantData = [
   name: "Mohit Rana",
   university: "Graphic Era Hill University ",
   img: mohit,
-  pr: [50, 114, 69],
+  pr: [45, 54, 69],
   prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/50','https://github.com/aditya-bhaumik/Pathsphere/pull/114','https://github.com/ML-Fusion-Lab/ML-Fusion-Lab-Website/pull/69'],
  },
  {
@@ -50,4 +50,3 @@ export const participantData = [
   prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/60'],
  },
 ];
-
