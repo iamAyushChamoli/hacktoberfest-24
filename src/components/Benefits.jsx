@@ -32,10 +32,10 @@ const Benefits = () => {
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl"
               style={{
                 backgroundImage: `url(${item.backgroundUrl})`,
-                border: `5px solid`,
-                borderImage: generateGradient(index),
+                background: generateGradient(index),
                 borderImageSlice: 1,
-                borderRadius: "10px",
+                borderRadius: "80px",
+                
               }}
               key={item.id}
             >
@@ -62,7 +62,7 @@ const Benefits = () => {
               {item.light && <GradientLight />}
 
               <div className="absolute inset-0.5 bg-n-8 transition-opacity duration-300 ease-in-out hover:bg-opacity-80"
-                style={{ clipPath: "url(#benefits)", borderRadius: "10px" }} // Add borderRadius here as well
+                style={{ clipPath: "url(#benefits)", borderRadius: "22%" }} // Add borderRadius here as well
               ></div>
 
               <ClipPath />
