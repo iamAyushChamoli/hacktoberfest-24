@@ -1,7 +1,7 @@
 import React from 'react';
 import Section from "./Section";
 import Heading from "./Heading";
-import { participantData } from "../participants/participants";
+import { participantData } from "../participants/participant";
 
 
 const Leaderboard = () => {
