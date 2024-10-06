@@ -115,24 +115,7 @@
 
 .card {
   position: relative;
-  width: 100%; /* Make the card take the full width */
-  max-width: 100%; /* Ensure it doesn't have a fixed max width */
   overflow: hidden;
-  border-radius: 1rem;
-  transition: transform 0.3s ease-in-out;
-  padding: 1.5rem;
-}
-
-.flex-1 span {
-  padding: 5px 20px;
-}
-
-.body-2 li{
-  border: none;
-}
-
-.rank {
-   color: white;
 }
 
 .card::before,
@@ -188,8 +171,6 @@
   border-image: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet) 1;
   box-shadow: 0 0 10px red, 0 0 10px orange, 0 0 10px yellow, 0 0 10px green, 0 0 10px blue, 0 0 10px indigo, 0 0 10px violet;
 }
-
-
 
 @keyframes border-chase {
   0% {
