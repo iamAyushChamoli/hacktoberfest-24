@@ -138,8 +138,6 @@ After your contribution (either in Tier 1 or Tier 2) has been successfully verif
     export default <yourName>;
     ```
 
----
-
 ### Important Notes:
 - Ensure the **PR number(s)** and **PR link(s)** are correct when you update your file.
 - If you’ve already contributed before, avoid creating a new file; just update the existing one.
