@@ -42,43 +42,71 @@ In this tier, participants contribute to **ANY external repository** they are in
 
 4. **Get Approval**: Our maintainers will verify your external contribution. Once it's approved, they will instruct you to:
     - Create a pull request against your own issue.
-    - Update the `participants/participants.js` file (explained below).
+    - Update the `participants` file (explained below).
 
 ---
 
 ## 2. Updating the Participants Log
 
-After your contribution is verified, you’ll need to update the `participants/participants.js` file with your details to be featured in the leaderboard. The format is as follows:
-
+After your contribution is verified, you’ll need to update the `participants/index.js` file with your details to be featured in the leaderboard. The format is as follows:
 ```js
 {
-    id: "<incremental id>",
-    name: "<Your Name>",
-    university: "<Your University>",
-    img: <your image variable>,
-    pr: [<PR number>],
-    prLink: ['<PR link>'],
-},
-```
+import participant_name from "./file_name(inside participant folder with participant details)";
+`after that add name to array `
+export const participants =[
+  participant_name,
+];
+
+}```
 
 ### Example:
 ```js
 {
-    id: "1",
-    name: "Ayush Chamoli",
-    university: "Graphic Era University",
-    img: ayush, // You can provide your image if available
-    pr: [1],
-    prLink: ['#link1'],
+  import JohnDoe from "./JohnDoe";
+   export const participants = [
+                JohnDoe,
+   ];
 },
 ```
+create a new participant_name.js file inside participants folder with following . 
+The format is as follows:
+```js
+import participant_nameImg from "./avatars/img/participant_name.jpg";
 
+const participant_name = {
+  id: "0",// add your serial number in contribution list
+  name: "participant_name",
+  university: "Your university name",
+  img: participant_nameImg,
+  pr: [0],// as per your PR
+  prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/29']//your PR link
+};
+
+export default participant_name;
+```
+### Example:
+```js
+import JohnDoeImg from "./avatars/img/rishaub.jpg";
+
+const JohnDoe = {
+  id: "9",
+  name: "John Doe",
+  university: "Graphic Era University",
+  img: JohnDoeImg,
+  pr: [94],
+  prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/94/commits/ee4f132a90e24f29a369ae83751af27bd86efd3a']
+};
+
+export default JohnDoe;
+```
 ### **Updating Your Entry for Multiple Contributions**
-If you’ve already made a contribution and your details are present in the `participants/participants.js` file, you **don’t need to create a new entry**. Instead, just update the `pr` and `prLink` arrays with your new PR details. Here's how:
+If you’ve already made a contribution and your details are present in the `participants/index.js` file and you have created participant_name.js file inside participants folder, you **don’t need to create a new entry**. Instead, just update the `pr` and `prLink` arrays with your new PR details. Here's how:
 
 - **Original Entry**:
     ```js
-    {
+   import participant_nameImg from "./avatars/img/participant_name.jpg";
+
+     const participant_name = {
         id: "2",
         name: "John Doe",
         university: "Graphic Era University",
@@ -86,11 +114,14 @@ If you’ve already made a contribution and your details are present in the `par
         pr: [1, 2],
         prLink: ['#link1', '#link2'],
     },
+    export default participant_name;
     ```
 
 - **After Adding a New PR** (PR number: 3, PR link: `#link3`):
     ```js
-    {
+   import participant_nameImg from "./avatars/img/participant_name.jpg";
+
+     const participant_name = {
         id: "2",
         name: "John Doe",
         university: "Graphic Era University",
@@ -98,6 +129,7 @@ If you’ve already made a contribution and your details are present in the `par
         pr: [1, 2, 3],
         prLink: ['#link1', '#link2', '#link3'],
     },
+    export default participant_name;
     ```
 
 This ensures your contributions are consolidated in a single entry, and your leaderboard details remain up-to-date.
@@ -106,7 +138,7 @@ This ensures your contributions are consolidated in a single entry, and your lea
 
 ### **How to Add Your Image**
 
-To include your image in the `participants/participants.js` file, follow these steps:
+To include your image in the `participants/participant_name.js` file, follow these steps:
 
 1. **Prepare Your Image**: 
    - Ensure your image is square (1:1 aspect ratio) and in **JPG** or **PNG** format.
@@ -115,34 +147,16 @@ To include your image in the `participants/participants.js` file, follow these s
    - Save your image in the `participants/avatars/img/` folder.
    
 3. **Import the Image**: 
-   - After placing your image in the `img/` folder, go to the `index.js` file in the `participants/avatars/` folder.
+   - After placing your image in the `img/` folder, go to the `participant_name.js` file in the `participants` folder.
    - Import your image using the following format:
      ```js
-     import <yourImageName> from './img/<yourImageName>.jpg (or .png)';
+     import <yourImageNameImg> from './avatars/img/<yourImageName>.jpg (or .png)';
      ```
 
    Example:
    ```js
-   import ayush from './img/ayush.jpg';
+   import johnDoeImg from "./avatars/img/JohnDoe.jpg";
    ```
-
-4. **Export the Image**: 
-   - Now, export the image from the same `index.js` file by adding the following line:
-     ```js
-     export {
-       <yourImageName>,
-     };
-     ```
-
-   Example:
-   ```js
-   export {
-       ayush,
-   };
-   ```
-
-5. **Update the `participants.js` File**:
-   - In the `participants/participants.js` file, set the `img` field to your image variable (which you imported and exported in the steps above). 
 
 Once done, your image will be displayed on the leaderboard along with your contribution details.
 ---
