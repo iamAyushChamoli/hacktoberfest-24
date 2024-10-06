@@ -70,51 +70,80 @@ You also have the freedom to contribute to any **external open-source repository
     - PR Number
     - Link to the PR
     - A brief description of your contribution
-5. **Update Participants Log**: Once verified by a maintainer, you will be instructed to update the `participants/participants.js` file (see below for more details).
+5. **Update Participants Log**: Once verified by a maintainer, you will be instructed to add a new file in `.js` format (see below for more details).
 
 ---
 
 ## Leaderboard and Participants Log
 
-After your contribution (either in Tier 1 or Tier 2) has been successfully verified, you will be featured on our **Leaderboard**! Here's how to update the `participants/participants.js` file:
+After your contribution (either in Tier 1 or Tier 2) has been successfully verified, you will be featured on our **Leaderboard**! Here's how to add  file:
 
-1. Open `participants/participants.js`.
-2. **If this is your first contribution**, add your details in the following format:
+1. **Navigate to `src/participants/`**: This is where your contribution details will be added.
+   
+2. **Add your avatar/image**: Place your image (in `.png` format) inside the `src/participants/avatars/img/` folder. Name it as `<yourName>.png`.
+
+3. **Create a new file in `src/participants/` folder**: 
+   - Name the file `<yourname>.js`.
+   
+4. **Import your avatar image**: 
+   - Inside the newly created `<yourname>.js` file, import your avatar image from the `avatars/img` folder:
+     ```js
+     import <yourNameImg> from "./avatars/img/<yourName>.png";
+     ```
+
+5. **Add your contribution details**: If this is your first contribution, format your file as follows:
     ```js
-    {
-        id: "<incremental id>",
-        name: "<Your Name>",
-        university: "<Your University>",
-        img: <your image variable>,
-        pr: [<PR number>],
-        prLink: ['<PR link>'],
-    },
+    import <yourNameImg> from "./avatars/img/<yourName>.png";
+
+    const <yourName> = { 
+      id: "<your ID number>",
+      name: "<your name>", 
+      university: "<Your University Name>", 
+      img: <yourNameImg>, 
+      pr: [1], 
+      prLink: ['#prLink']
+    };
+
+    export default <yourName>;
     ```
 
-3. **If you have already made contributions before**, **do not create a new entry**. Instead, simply add your new PR number and PR link to the existing entry. For example, if your entry looks like this:
+6. **If you have already made previous contributions**, **do not create a new file**. Instead, add your new PR number and PR link to your existing file. For example:
     ```js
-    {
-        id: "2",
-        name: "John Doe",
-        university: "Graphic Era University",
-        img: johnDoe,
-        pr: [1, 2],
-        prLink: ['#link1', '#link2'],
-    },
-    ```
-   And now you have a new PR (PR number: 3, PR link: `#link3`), you would update the `pr` and `prLink` arrays as follows:
-    ```js
-    {
-        id: "2",
-        name: "John Doe",
-        university: "Graphic Era University",
-        img: johnDoe,
-        pr: [1, 2, 3],
-        prLink: ['#link1', '#link2', '#link3'],
-    },
+    const <yourName> = { 
+      id: "2",
+      name: "John Doe", 
+      university: "Graphic Era Hill University", 
+      img: johnDoeImg, 
+      pr: [1, 2], 
+      prLink: ['#link1', '#link2']
+    };
     ```
 
-4. Make sure to follow the structure carefully, including your PR number(s) and link(s).
+   If you now have a new PR (PR number: 3, PR link: `#link3`), you would update the `pr` and `prLink` arrays like this:
+    ```js
+    const <yourName> = { 
+      id: "2",
+      name: "John Doe", 
+      university: "Graphic Era Hill University", 
+      img: johnDoeImg, 
+      pr: [1, 2, 3], 
+      prLink: ['#link1', '#link2', '#link3']
+    };
+
+    export default <yourName>;
+    ```
+
+7. **Export your file**: Make sure to export your data at the end using the following command:
+    ```js
+    export default <yourName>;
+    ```
+
+---
+
+### Important Notes:
+- Ensure the **PR number(s)** and **PR link(s)** are correct when you update your file.
+- If you’ve already contributed before, avoid creating a new file; just update the existing one.
+- Follow the structure carefully to ensure your details are added correctly to the leaderboard.
 
 ---
 
