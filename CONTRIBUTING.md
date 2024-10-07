@@ -71,7 +71,7 @@ In this tier, participants contribute to **ANY external repository** they are in
    ```js
    import <yournameImg> from "./avatars/img/<yourname>.png";
 
-   const ayush = { 
+   const yourName = { 
      id: "2", // Unique ID
      name: "Your Name", 
      university: "University name", 
