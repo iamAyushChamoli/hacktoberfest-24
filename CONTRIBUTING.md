@@ -42,109 +42,69 @@ In this tier, participants contribute to **ANY external repository** they are in
 
 4. **Get Approval**: Our maintainers will verify your external contribution. Once it's approved, they will instruct you to:
     - Create a pull request against your own issue.
-    - Update the `participants/participants.js` file (explained below).
+    -  Add a new file in `.js` in  `src/participants/` folder format (explained below).
 
 ---
 
 ## 2. Updating the Participants Log
 
-After your contribution is verified, you’ll need to update the `participants/participants.js` file with your details to be featured in the leaderboard. The format is as follows:
+ ### Here's how to add  file:
 
-```js
-{
-    id: "<incremental id>",
-    name: "<Your Name>",
-    university: "<Your University>",
-    img: <your image variable>,
-    pr: [<PR number>],
-    prLink: ['<PR link>'],
-},
-```
+1. **Navigate to `src/participants/`**: 
+   - This is where your contribution details will be added.
 
-### Example:
-```js
-{
-    id: "1",
-    name: "Ayush Chamoli",
-    university: "Graphic Era University",
-    img: ayush, // You can provide your image if available
-    pr: [1],
-    prLink: ['#link1'],
-},
-```
+2. **Add your avatar/image**: 
+   - Place your avatar (in `.png` or `.jpg` format) inside the `src/participants/avatars/img/` folder. Name the image file as `<yournameImg>.png`.
 
-### **Updating Your Entry for Multiple Contributions**
-If you’ve already made a contribution and your details are present in the `participants/participants.js` file, you **don’t need to create a new entry**. Instead, just update the `pr` and `prLink` arrays with your new PR details. Here's how:
+3. **Create a new file in `src/participants/` folder**: 
+   - Name the file `yourName.js`.
 
-- **Original Entry**:
-    ```js
-    {
-        id: "2",
-        name: "John Doe",
-        university: "Graphic Era University",
-        img: johnDoe,
-        pr: [1, 2],
-        prLink: ['#link1', '#link2'],
-    },
-    ```
+4. **Import your avatar image**: 
+   - Inside the newly created `<yourName.js>` file, import your avatar image from the `avatars/img` folder:
 
-- **After Adding a New PR** (PR number: 3, PR link: `#link3`):
-    ```js
-    {
-        id: "2",
-        name: "John Doe",
-        university: "Graphic Era University",
-        img: johnDoe,
-        pr: [1, 2, 3],
-        prLink: ['#link1', '#link2', '#link3'],
-    },
-    ```
-
-This ensures your contributions are consolidated in a single entry, and your leaderboard details remain up-to-date.
-
----
-
-### **How to Add Your Image**
-
-To include your image in the `participants/participants.js` file, follow these steps:
-
-1. **Prepare Your Image**: 
-   - Ensure your image is square (1:1 aspect ratio) and in **JPG** or **PNG** format.
-   
-2. **Place Your Image in the Folder**: 
-   - Save your image in the `participants/avatars/img/` folder.
-   
-3. **Import the Image**: 
-   - After placing your image in the `img/` folder, go to the `index.js` file in the `participants/avatars/` folder.
-   - Import your image using the following format:
-     ```js
-     import <yourImageName> from './img/<yourImageName>.jpg (or .png)';
-     ```
-
-   Example:
    ```js
-   import ayush from './img/ayush.jpg';
+   import <yournameImg> from "./avatars/img/yournameImg.png(or.jpg)";
+   ```
+5. **Add your contribution details**: 
+   - If this is your first contribution, format your file as follows:
+
+   ```js
+   import <yournameImg> from "./avatars/img/<yourname>.png";
+
+   const ayush = { 
+     id: "2", // Unique ID
+     name: "Your Name", 
+     university: "University name", 
+     img: yournameImg, 
+     pr: [1], 
+     prLink: ['#prLink1']
+   };
+
+   export default yourName;
    ```
 
-4. **Export the Image**: 
-   - Now, export the image from the same `index.js` file by adding the following line:
-     ```js
-     export {
-       <yourImageName>,
-     };
-     ```
+6. **If you have multiple contributions**: 
+   - If you already have a previous entry and are making a new contribution, simply update the `pr` array and `prLink` array as shown below:
 
-   Example:
    ```js
-   export {
-       ayush,
+   const yourName = { 
+     id: "2",
+     name: "Your Name", 
+     university: "University Name", 
+     img: yourname, 
+     pr: [1, 2], 
+     prLink: ['#prLink1', '#prLink2']
    };
    ```
 
-5. **Update the `participants.js` File**:
-   - In the `participants/participants.js` file, set the `img` field to your image variable (which you imported and exported in the steps above). 
+7. **Export your file**: 
+   - Ensure your file is exported at the end:
 
-Once done, your image will be displayed on the leaderboard along with your contribution details.
+   ```js
+   export default yourName;
+   ``` 
+
+ - After successfully completing these steps our maintainers will approve your pull request and then your name will be shown in the leaderboard.
 ---
 
 ## 3. Badges & Recognition
