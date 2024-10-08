@@ -5,10 +5,12 @@ const mohit = {
   name: "Mohit Rana",
   university: "Graphic Era Hill University",
   img: mohitImg,
-  pr: [45, 54],
+  pr: [50, 114, 183, 69],
   prLink: [
     'https://github.com/iamAyushChamoli/hacktoberfest-24/pull/50',
-    'https://github.com/aditya-bhaumik/Pathsphere/pull/114'
+    'https://github.com/aditya-bhaumik/Pathsphere/pull/114',
+    'https://github.com/GarimaSingh0109/Resum-Resume/pull/183',
+    'https://github.com/ML-Fusion-Lab/ML-Fusion-Lab-Website/pull/69'
   ]
 };
 
