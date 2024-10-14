@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Footer Design</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1f1f1f;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    footer {
+      background-color: #0e1117;
+      color: white;
+      padding: 20px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .footer-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .footer-left h2 {
+      color: #b48ad1;
+      margin-bottom: 5px;
+    }
+
+    .footer-left p {
+      font-size: 14px;
+      color: #cccccc;
+    }
+
+    .footer-nav {
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      text-transform: uppercase;
+    }
+
+    .footer-nav a {
+      color: white;
+      font-size: 14px;
+      text-decoration: none;
+    }
+
+    .footer-nav a:hover {
+      color: #b48ad1;
+    }
+
+    .footer-right {
+      display: flex;
+      gap: 20px;
+    }
+
+    .footer-right a {
+      color: white;
+      font-size: 24px;
+      text-decoration: none;
+    }
+
+    .footer-right a:hover {
+      color: #b48ad1;
+    }
+
+    .footer-bottom-text {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+      color: #cccccc;
+    }
+
+    .footer-bottom-text a {
+      color: #b48ad1;
+      text-decoration: none;
+    }
+
+    .footer-bottom-text a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  
+  <footer>
+    <div class="footer-container">
+      <div class="footer-left">
+        <h2>HacktoberFest '24</h2>
+        <p>CEU x Vaunt</p>
+      </div>
+      
+      <div class="footer-nav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Partners</a>
+        <a href="#">Leaderboard</a>
+        <a href="#">Guidelines</a>
+        <a href="#">Repository</a>
+      </div>
+      
+      <div class="footer-right">
+        <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+    <p class="footer-bottom-text">Check out the CONTRIBUTION GUIDELINES to learn more</p>
+  </footer>
+
+</body>
+</html>
