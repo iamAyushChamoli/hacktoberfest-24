@@ -51,10 +51,35 @@ const Benefits = () => {
                   />
 
                   <Link to={item.url} className="flex items-center ml-auto">
-                    <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider transition-transform duration-300 hover:scale-110">
+                    {/* <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider transition-transform duration-300 hover:scale-110">
                       Learn more
-                    </p>
-                    <Arrow />
+                    </p> */}
+                    {/* <Arrow /> */}
+<div class="relative inline-block">
+  {/* <!-- Gradient Border --> */}
+  <div class="absolute inset-0 bg-gradient-to-r from-yellow-500 via-red-500 to-blue-500 rounded-xl border-2 border-transparent rounded-xl"></div>
+  <button class="bg-transparent text-white font-medium text-[10px] leading-none px-5 py-1.5 pl-6 rounded-xl border-none tracking-wide flex items-center shadow-inner relative h-11 pr-14 cursor-pointer z-10">
+    Learn more
+    <div class="bg-white flex items-center justify-center h-9 w-9 rounded-lg shadow-[2px_2px_8px_2px_rgba(123,82,185,0.4)] absolute right-1 transition-all duration-300 ml-4 hover:w-[calc(100%-0.75rem)]">
+      <svg
+        class="w-4 text-purple-700 transition-transform duration-300 hover:translate-x-1"
+        height="24"
+        width="24"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M0 0h24v24H0z" fill="none"></path>
+        <path
+          d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+          fill="currentColor"
+        ></path>
+      </svg>
+    </div>
+  </button>
+</div>
+
+                     
+        
                   </Link>
                 </div>
               </div>
