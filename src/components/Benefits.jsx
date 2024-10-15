@@ -5,7 +5,7 @@ import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
 import { Link } from "react-router-dom";
-
+import Button from "./design/Button";
 // Function to generate a unique gradient for each item
 const generateGradient = (index) => {
   const gradients = [
@@ -54,27 +54,7 @@ const Benefits = () => {
                       Learn more
                     </p> */}
                     {/* <Arrow /> */}
-                    <div class="relative inline-block group">
-                      <div class="absolute inset-0 bg-gradient-to-r from-purple-900 via-blue-900 to-green-900 rounded-xl border-2 border-transparent transition-all duration-500 ease-out group-hover:border-white"></div>
-                      <button class="bg-transparent text-white font-medium text-[10px] leading-none px-5 py-1.5 pl-6 rounded-xl border-none tracking-wide flex items-center shadow-inner relative h-11 pr-14 cursor-pointer z-10 transition-all duration-500 ease-out">
-                        Learn more
-                        <div class="bg-gray-800 flex items-center justify-center h-9 w-9 rounded-lg shadow-[2px_2px_8px_2px_rgba(0,0,0,0.4)] absolute right-1 transition-all duration-500 ease-out group-hover:w-[calc(100%-0.75rem)]">
-                          <svg
-                            class="w-4 text-white transition-transform duration-500 ease-out group-hover:translate-x-1"
-                            height="24"
-                            width="24"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path d="M0 0h24v24H0z" fill="none"></path>
-                            <path
-                              d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-                              fill="currentColor"
-                            ></path>
-                          </svg>
-                        </div>
-                      </button>
-                    </div>
+                 <Button/>
                   </Link>
                 </div>
               </div>
