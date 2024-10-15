@@ -21,7 +21,7 @@ const Footer = () => {
               href={item.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center w-10 h-10 bg-n-7 rounded-full transition-colors hover:bg-n-6"
+              className="flex items-center justify-center w-10 h-10 bg-n-7 rounded-full transition-all duration-300 hover:bg-n-5 transform hover:scale-110 hover:shadow-lg"
             >
               <img src={item.iconUrl} width={26} height={26} alt={item.title} />
             </a>
