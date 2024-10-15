@@ -36,9 +36,6 @@ const Footer = () => {
           Scroll to Top
         </button>
         <p className="text-sm mt-4">
-          © {new Date().getFullYear()} Your Company. All rights reserved.
-        </p>
-        <p className="text-sm">
           Privacy Policy | Terms of Service
         </p>
       </div>
