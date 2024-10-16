@@ -50,11 +50,7 @@ const Benefits = () => {
                   />
 
                   <Link to={item.url} className="flex items-center ml-auto">
-                    {/* <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider transition-transform duration-300 hover:scale-110">
-                      Learn more
-                    </p> */}
-                    {/* <Arrow /> */}
-                 <Button/>
+                    <Button />
                   </Link>
                 </div>
               </div>

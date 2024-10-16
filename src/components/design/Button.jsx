@@ -27,9 +27,9 @@ const Button = () => {
 
 const StyledWrapper = styled.div`
   .cssbuttons-io-button {
-    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    background: linear-gradient(to right, #4b0082, #1d3557, #0d9488);
 
-    color: white;
+    color: #f0f0f0;
     font-family: inherit;
     padding: 0.35em;
     padding-left: 1.2em;
@@ -40,16 +40,17 @@ const StyledWrapper = styled.div`
     letter-spacing: 0.05em;
     display: flex;
     align-items: center;
-    box-shadow: inset 0 0 1.6em -0.6em #444444;
+    box-shadow: inset 0 0 1.6em -0.6em #1e293b;
     overflow: hidden;
     position: relative;
     height: 2.8em;
     padding-right: 3.3em;
     cursor: pointer;
+    transition: all 0.3s ease;
   }
 
   .cssbuttons-io-button .icon {
-    background: white;
+    background: #111827;
     margin-left: 1em;
     position: absolute;
     display: flex;
@@ -58,7 +59,7 @@ const StyledWrapper = styled.div`
     height: 2.2em;
     width: 2.2em;
     border-radius: 0.7em;
-    box-shadow: 0.1em 0.1em 0.6em 0.2em #555555;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #000000;
     right: 0.3em;
     transition: all 0.3s;
   }
@@ -70,7 +71,7 @@ const StyledWrapper = styled.div`
   .cssbuttons-io-button .icon svg {
     width: 1.1em;
     transition: transform 0.3s;
-    color: #444444;
+    color: #e5e7eb;
   }
 
   .cssbuttons-io-button:hover .icon svg {
@@ -79,6 +80,10 @@ const StyledWrapper = styled.div`
 
   .cssbuttons-io-button:active .icon {
     transform: scale(0.95);
+  }
+
+  .cssbuttons-io-button:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
   }
 `;
 
