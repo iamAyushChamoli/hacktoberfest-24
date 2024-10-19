@@ -22,7 +22,7 @@ GitHub is more than just a platform for hosting code—it's your professional po
 - **Contributions 101**: Tips and tricks for contributing to open-source projects, handling pull requests, and writing clean, maintainable code.
 - **Automating Portfolio Updates**: Use GitHub Actions and tools to automate routine tasks like running tests, updating badges, and deploying updates.
 - **Markdown Mastery**: Learn advanced markdown techniques to create attractive README files and project documentation.
-  
+
 ## 🚀 Boost Your Portfolio Visibility
 
 - **GitHub Pages**: Create a personal portfolio website using GitHub Pages to showcase your best work to the world.
@@ -54,7 +54,3 @@ GitHub is more than just a platform for hosting code—it's your professional po
 - **Continuous Improvement**: Learn how to maintain your portfolio, update it with new skills, projects, and technologies as you grow.
 - **Career Opportunities**: Discover how recruiters and employers use GitHub to evaluate potential hires and how you can stand out.
 - **Long-term Benefits**: A strong GitHub portfolio is not just for today but will be a crucial tool throughout your career in tech.
-
-Join us in building your GitHub portfolio, polishing your skills, and preparing for future opportunities in the tech world. Whether you're new to GitHub or looking to elevate your current profile, this event is for you. Let’s create, contribute, and get noticed! 🚀💻
-
-**Make your GitHub portfolio the gateway to your dream career!**
