@@ -44,7 +44,7 @@ GitHub is more than just a platform for hosting code—it's your professional po
 
 ## 🎯 Takeaways
 
-- **A Professional GitHub Portfolio**: By the end of the event, you'll have a polished GitHub portfolio ready to show off to potential employers, collaborators, or mentors.
+- **A Professional GitHub Portfolio**: By the end of the event, you will have a polished GitHub portfolio ready to show off to potential employers, collaborators, or mentors.
 - **Valuable Feedback**: Personalized tips and recommendations to further enhance your GitHub repositories.
 - **New Contributions**: You’ll have contributed to new projects, boosting both your portfolio and open-source credibility.
 - **Expanded Network**: Meaningful connections with developers, mentors, and professionals in the tech community.
