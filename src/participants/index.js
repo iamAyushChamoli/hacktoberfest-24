@@ -8,9 +8,10 @@ import divyanshu from "./divyanshu";
 import pratikM from "./pratikM";
 import tanuj from "./tanuj";
 import ashish_kumar_sahoo from './ashish_kumar_sahoo'
-
+import Nishant from "./Nishant";
 // Export them as an array
 export const participants = [
+  Nishant,
   vineet,
   hayagreevanv,
   uday,
@@ -19,5 +20,6 @@ export const participants = [
   divyanshu,
   pratikM,
   tanuj,
-  ashish_kumar_sahoo
+  ashish_kumar_sahoo,
+  
 ];
