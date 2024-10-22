@@ -38,7 +38,7 @@ const Header = () => {
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <ScrollLink to="hero" smooth={true} duration={500}>
-          <img src={logo} width={150} height={40} alt="hacktoberfest'24" />
+          <img src={logo} width={150} height={30} alt="hacktoberfest'24" />
         </ScrollLink>
 
         <nav
