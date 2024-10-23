@@ -5,8 +5,8 @@ const Anas = {
   name: "Anas",
   university: "Graphic Era Hill University",
   img: AnasImg,
-  pr: [139],
-  prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/issues/139']
+  pr: [141],
+  prLink: ['https://github.com/iamAyushChamoli/hacktoberfest-24/pull/141']
 };
 
 export default Anas;
