@@ -9,6 +9,7 @@ import pratikM from "./pratikM";
 import tanuj from "./tanuj";
 import ashish_kumar_sahoo from './ashish_kumar_sahoo';
 import Nishant from "./Nishant";
+import vamsi from "./vamsi";
 import Anas from "./Anas"
 // Export them as an array
 
@@ -24,5 +25,5 @@ export const participants = [
   pratikM,
   tanuj,
   ashish_kumar_sahoo,
-  
+  vamsi
 ];
