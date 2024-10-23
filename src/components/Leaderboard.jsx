@@ -20,7 +20,7 @@ const Leaderboard = () => {
           <div className="relative z-1 overflow-x-auto shadow-md sm:rounded-lg">
             <table className="w-full text-sm text-left text-white ">
               <thead className="text-xs uppercase bg-gray-700">
-                <tr>
+                <tr className='card'>
                   <th scope="col" className="px-6 py-3">Rank</th>
                   <th scope="col" className="px-6 py-3">Participant</th>
                   <th scope="col" className="px-6 py-3">University</th>
@@ -30,14 +30,27 @@ const Leaderboard = () => {
               </thead>
               <tbody>
                 {sortedParticipants.map((participant, index) => (
-                  <tr key={participant.id} className=" border-b hover:bg-black/50">
-                    <td className="px-6 py-4 font-medium whitespace-nowrap">
-                      #{index + 1}
+                  <tr key={participant.id}  className={`card relative border border-n-1/10 rounded-xl overflow-hidden ${
+                    index === 0 ? 'hover-gold' :
+                    index === 1 ? 'hover-silver' :
+                    index === 2 ? 'hover-bronze' :
+                    'hover-rainbow'
+                  }`}>
+                    <td className="px-6 py-4">
+                      {index < 3 ? (
+                        <>
+                          {index === 0 && <span className="text-yellow-400 mr-1 text-2xl">🥇</span>}
+                          {index === 1 && <span className="text-gray-300 mr-1 text-2xl">🥈</span>}
+                          {index === 2 && <span className="text-amber-600 mr-1 text-2xl">🥉</span>}
+                        </>
+                      ) : (
+                        `#${index + 1}`
+                      )}
                     </td>
                     <td className="px-6 py-4 flex items-center">
                       <img
                         src={participant.img}
-                        className="h-10 w-10 rounded-full mr-3"
+                        className="h-10 w-10 rounded-full mr-3 object-cover"
                         alt={participant.name}
                       />
                       {participant.name}
