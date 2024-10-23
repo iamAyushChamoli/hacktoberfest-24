@@ -43,29 +43,28 @@ const Hero = () => {
             <div className="relative bg-n-10 rounded-[1rem] z-10">
               <div className="h-[1.4rem] bg-n-10 rounded-t-[1rem]" />
 
-              <div className="aspect-[33/40] rounded-[1rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
-                <img
-                  src={hacktober}
-                  className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
-                  width={1024}
-                  height={490}
-                  alt="AI"
-                />
+              <div className="aspect-[43/43] rounded-[1rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
+  <img
+    src={hacktober}
+    className="w-full h-full object-cover md:object-contain lg:object-cover lg:-translate-y-[0%]"
+    width={1024}
+    height={490}
+    alt="AI"
+  />
+  <ScrollParallax isAbsolutelyPositioned>
+    <Notification
+      className="hidden absolute right-[55.5rem] bottom-[3rem] w-[18rem] xl:flex"
+      title="Leaderboard Is Live"
+    />
+  </ScrollParallax>
 
-                <ScrollParallax isAbsolutelyPositioned>
-                  <Notification
-                    className="hidden absolute right-[55.5rem] bottom-[3rem] w-[18rem] xl:flex"
-                    title="Leaderboard Is Live"
-                  />
-                </ScrollParallax>
-
-                <ScrollParallax isAbsolutelyPositioned>
-                  <Notification
-                    className="hidden absolute -right-[5.5rem] bottom-[17rem] w-[18rem] xl:flex"
-                    title="Event Is Live"
-                  />
-                </ScrollParallax>
-              </div>
+  <ScrollParallax isAbsolutelyPositioned>
+    <Notification
+      className="hidden absolute -right-[5.5rem] bottom-[17rem] w-[18rem] xl:flex"
+      title="Event Is Live"
+    />
+  </ScrollParallax>
+</div>
             </div>
 
             <Gradient />
