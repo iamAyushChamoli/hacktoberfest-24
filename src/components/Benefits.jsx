@@ -5,7 +5,7 @@ import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
 import { Link } from "react-router-dom";
-
+import Button from "./design/Button";
 // Function to generate a unique gradient for each item
 const generateGradient = (index) => {
   const gradients = [
@@ -35,7 +35,6 @@ const Benefits = () => {
                 background: generateGradient(index),
                 borderImageSlice: 1,
                 borderRadius: "80px",
-                
               }}
               key={item.id}
             >
@@ -51,17 +50,15 @@ const Benefits = () => {
                   />
 
                   <Link to={item.url} className="flex items-center ml-auto">
-                    <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider transition-transform duration-300 hover:scale-110">
-                      Learn more
-                    </p>
-                    <Arrow />
+                    <Button />
                   </Link>
                 </div>
               </div>
 
               {item.light && <GradientLight />}
 
-              <div className="absolute inset-0.5 bg-n-8 transition-opacity duration-300 ease-in-out hover:bg-opacity-80"
+              <div
+                className="absolute inset-0.5 bg-n-8 transition-opacity duration-300 ease-in-out hover:bg-opacity-80"
                 style={{ clipPath: "url(#benefits)", borderRadius: "22%" }} // Add borderRadius here as well
               ></div>
 
